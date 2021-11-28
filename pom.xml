@@ -25,15 +25,15 @@
   </properties>
 
   <dependencies>
-   <dependency>
+<!--    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-   <dependency>
+<!--    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
       <exclusions>
@@ -42,8 +42,8 @@
       		<artifactId>thymeleaf-layout-dialect</artifactId>
       	</exclusion>
       </exclusions>
-    </dependency>
-   <dependency>
+    </dependency> -->
+<!--    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
@@ -80,7 +80,7 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <scope>runtime</scope>
-    </dependency>
+    </dependency> -->
   </dependencies>
 
   <build>
@@ -93,14 +93,14 @@
             <goals>
               <goal>build-info</goal>
             </goals>
-           <configuration>
+<!--            <configuration>
               <additionalProperties>
                 <encoding.source>${project.build.sourceEncoding}</encoding.source>
                 <encoding.reporting>${project.reporting.outputEncoding}</encoding.reporting>
                 <java.source>${maven.compiler.source}</java.source>
                 <java.target>${maven.compiler.target}</java.target>
               </additionalProperties>
-            </configuration>
+            </configuration> -->
           </execution>
         </executions>
       </plugin>
