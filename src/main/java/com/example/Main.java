@@ -38,11 +38,11 @@ import java.util.Map;
 // @SpringBootApplication
 public class Main {
 
-//  @Value("${spring.datasource.url}")
+ @Value("${spring.datasource.url}")
   private String dbUrl;
 
-//   @Autowired
-//   private DataSource dataSource;
+  @Autowired
+  private DataSource dataSource;
 
   public static void main(String[] args) throws Exception {
     SpringApplication.run(Main.class, args);
