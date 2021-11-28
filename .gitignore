@@ -6,6 +6,6 @@ target/
 .project
 .settings/
 docs/tmp/
-docs/java-getting-started/
+docs/training/
 docs/deploying-spring-boot-apps/
 .mvn/wrapper/maven-wrapper.jar
