@@ -33,7 +33,7 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-   <dependency>
+<!--    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
       <exclusions>
@@ -42,12 +42,12 @@
       		<artifactId>thymeleaf-layout-dialect</artifactId>
       	</exclusion>
       </exclusions>
-    </dependency>
-   <dependency>
+    </dependency> -->
+<!--    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
-    </dependency>
+    </dependency> -->
 <!--    <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
@@ -76,11 +76,11 @@
       <artifactId>webjars-locator</artifactId>
       <version>0.30</version>
     </dependency> -->
-   <dependency>
+<!--    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <scope>runtime</scope>
-    </dependency>
+    </dependency> -->
   </dependencies>
 
   <build>
