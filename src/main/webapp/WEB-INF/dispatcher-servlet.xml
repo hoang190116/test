@@ -17,11 +17,11 @@
     for the index controller we are using ParameterizableViewController, so we must
     define an explicit mapping for it.
     -->
-    
-<!--     <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
+<!--     
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
     
     <context:component-scan base-package="com.controller"></context:component-scan>
-    <mvc:annotation-driven/>
+    <mvc:annotation-driven/> -->
     
     <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
@@ -29,12 +29,12 @@
                 <prop key="index.html">indexController</prop>
             </props>
         </property>
-    </bean>-->
+    </bean>
 
-<!--    <bean id="viewResolver"
+   <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver"
           p:prefix="/WEB-INF/views/"
-          p:suffix=".jsp" />-->
+          p:suffix=".jsp" />
 
     <!--
     The index controller.
