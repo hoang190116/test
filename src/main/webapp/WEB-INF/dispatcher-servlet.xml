@@ -23,13 +23,13 @@
     <context:component-scan base-package="com.controller"></context:component-scan>
     <mvc:annotation-driven/> -->
     
-    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+<!--     <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <props>
                 <prop key="index.html">/</prop>
             </props>
         </property>
-    </bean>
+    </bean> -->
 
    <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver"
