@@ -1,1 +1,0 @@
-web: java -jar target/trainingAD-1.0.jar
