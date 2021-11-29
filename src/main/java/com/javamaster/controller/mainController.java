@@ -46,6 +46,23 @@ public class mainController {
 //    @Autowired
 //    private userDAO daoUser;
     
+    @RequestMapping("/")
+    public ModelAndView index(ModelAndView model){
+        this.checking = null;
+        staff = false;
+        id = null;
+        model.setViewName("index");
+        return model;
+    }
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public ModelAndView index2(ModelAndView model){
+        this.checking = null;
+        staff = false;
+        id = null;
+        model.setViewName("index");
+        return model;
+    }
+    
     @RequestMapping(value = {"/index", "/"})
     public ModelAndView list(ModelAndView model){
         this.checking = null;
