@@ -48,7 +48,7 @@ public class SpringMvcConfig {
     @Bean
     public ViewResolver getView(){
         InternalResourceViewResolver reso = new InternalResourceViewResolver();
-//        reso.setPrefix("/WEB-INF/views/");
+       reso.setPrefix("/WEB-INF/views/");
         reso.setSuffix(".jsp");
         
         return reso;
