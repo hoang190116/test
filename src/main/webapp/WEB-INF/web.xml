@@ -3,7 +3,7 @@
 	xmlns="http://java.sun.com/xml/ns/javaee"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	version="3.0">
-	<servlet>
+<!--	<servlet>
 		<description></description>
 		<display-name>Controller</display-name>
 		<servlet-name>Controller</servlet-name>
@@ -16,5 +16,5 @@
 	<servlet-mapping>
 		<servlet-name>default</servlet-name>
 		<url-pattern>/resources/*</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping>-->
 </web-app>
