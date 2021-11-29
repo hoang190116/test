@@ -25,6 +25,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 // import javax.sql.DataSource;
 // import java.sql.Connection;
@@ -48,10 +49,18 @@ public class Main {
     SpringApplication.run(Main.class, args);
   }
 
-  @RequestMapping("/")
-  String index() {
-    return "index";
-  }
+//  @RequestMapping("/")
+//  String index() {
+//    return "index";
+//  }
+  @RequestMapping(value = {"/index", "/"})
+    public ModelAndView list(ModelAndView model){
+//        this.checking = null;
+//        staff = false;
+//        id = null;
+        model.setViewName("index");
+        return model;
+    }
 
 //   @RequestMapping("/db")
 //   String db(Map<String, Object> model) {
