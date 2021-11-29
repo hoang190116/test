@@ -56,7 +56,7 @@ public class Main {
 //        this.checking = null;
 //        staff = false;
 //        id = null;
-        model.setViewName("index.jsp");
+        model.setViewName("index");
         return model;
     }
 
