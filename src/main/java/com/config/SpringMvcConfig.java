@@ -48,8 +48,8 @@ public class SpringMvcConfig {
     @Bean
     public ViewResolver getView(){
         InternalResourceViewResolver reso = new InternalResourceViewResolver();
-        reso.setPrefix("/templates/");
-        reso.setSuffix(".jsp");
+//         reso.setPrefix("/templates/");
+//         reso.setSuffix(".jsp");
         
         return reso;
     }
