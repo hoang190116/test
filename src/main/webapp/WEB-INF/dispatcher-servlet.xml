@@ -26,7 +26,7 @@
     <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <props>
-                <prop key="index.html">mainController</prop>
+                <prop key="index.html">/</prop>
             </props>
         </property>
     </bean>
