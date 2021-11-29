@@ -20,6 +20,7 @@ package com.controller;
 // import com.zaxxer.hikari.HikariDataSource;
 // import org.springframework.beans.factory.annotation.Autowired;
 // import org.springframework.beans.factory.annotation.Value;
+import com.config.SpringMvcConfig;
 import com.config.WebInitializer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -48,6 +49,7 @@ public class Main {
 
   public static void main(String[] args) throws Exception {
     SpringApplication.run(WebInitializer.class, args);
+    SpringApplication.run(SpringMvcConfig.class, args);
     SpringApplication.run(Main.class, args);
   }
 
