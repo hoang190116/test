@@ -188,10 +188,10 @@
                                     <version>7.0.22.3</version>
                                     <destFileName>webapp-runner.jar</destFileName>-->
                                     
-                                    <groupId>com.github.jsimone</groupId>
+<!--                                     <groupId>com.github.jsimone</groupId>
                                     <artifactId>webapp-runner</artifactId>
                                     <version>9.0.24.1</version>
-                                    <destFileName>webapp-runner.jar</destFileName>
+                                    <destFileName>webapp-runner.jar</destFileName> -->
                                     <!--<scope>provided</scope>-->
                                     
                                 </artifactItem>
