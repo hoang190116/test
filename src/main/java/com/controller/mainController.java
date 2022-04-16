@@ -53,18 +53,18 @@ public class mainController {
         model=loginC.checkLogin(request, model);
         account a = loginC.checkCookie(request);
         if(a!= null){
-            int number = 0;
-            number = cartD.getCountCart(a.getId());
-            model.addObject("numberCart", number);
+//             int number = 0;
+//             number = cartD.getCountCart(a.getId());
+//             model.addObject("numberCart", number);
         }
-        List<Product> list = product.list();
-        model.addObject("listProduct", list); 
+//         List<Product> list = product.list();
+//         model.addObject("listProduct", list); 
         
-        list = product.hotList();
-        model.addObject("hotList", list);
+//         list = product.hotList();
+//         model.addObject("hotList", list);
         
-        list = product.slideBar();
-        model.addObject("slideBar", list);
+//         list = product.slideBar();
+//         model.addObject("slideBar", list);
         
         model.setViewName("index");
         return model;
