@@ -16,7 +16,7 @@
           <div class="ibox">
             <div class="ibox-content product-box">
               <div class="">
-                <img style="height: 140px; width: 200px" src="${pageContext.request.contextPath }/img/1/${p.photos[0]}" alt="">
+                <img style="height: 140px; width: 200px" src="" alt="">
               </div>
               <div class="product-desc">
                   <form action="productView?id=${p.product_id}" method="post">
@@ -49,7 +49,7 @@
           <div class="ibox">
             <div class="ibox-content product-box">
               <div class="">
-                <img style="height: 140px; width: 200px" src="${pageContext.request.contextPath }/img/1/${p.photos[0]}" alt="">
+                <img style="height: 140px; width: 200px" src="" alt="">
               </div>
               <div class="product-desc">
                 <a type="submit" href="productView?id=${p.product_id}" class="product-name">${p.name}</a>
