@@ -60,8 +60,8 @@ public class mainController {
         List<Product> list = product.list();
         model.addObject("listProduct", list); 
         
-        list = product.hotList();
-        model.addObject("hotList", list);
+//         list = product.hotList();
+//         model.addObject("hotList", list);
         
 //         list = product.slideBar();
 //         model.addObject("slideBar", list);
